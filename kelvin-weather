@@ -1,0 +1,21 @@
+// create a constans variable named kelvin, which value is 293
+const kelvin = 0;
+
+// converting kelvins to Celsius degrees
+let celsius = kelvin - 273;
+
+// changing Celsius degrees to Fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+
+// round down the Fahrenheit temperature
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The current temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// changing Celsius degrees to Newton scale
+let Newton = celsius * (33/100);
+
+// round down the Newton temperature
+Newton = Math.floor(Newton);
+
+console.log(`The current temperature in Newton is ${Newton}.`);
